@@ -1,0 +1,182 @@
+body{
+	font-family: "微软雅黑";
+}
+.navbar-default{
+	background-color: #FFF;
+    border: none;
+    box-shadow: 0px 2px 8px 0px rgba(50,50,50,0.25);
+}
+.navbar-brand {
+    font-size: 30px;
+    font-weight: bold;
+    color: #04D2B1;
+    height: 70px;
+    line-height: 35px;
+}
+
+.navbar-default .navbar-nav>li>a {
+    font-size: 16px;
+    font-weight: bold;
+    color: #666;
+    height: 70px;
+    line-height: 35px;
+}
+.navbar-default .navbar-toggle {
+    border-color: #337ab7;
+}
+.navbar-toggle {
+    position: relative;
+    float: right;
+    padding: 9px 10px;
+    margin-top: 17px;
+    margin-right: 15px;
+    margin-bottom: 8px;
+    background-color: transparent;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+/*home*/
+#home{
+	margin-top: 70px;
+	background: url(../img/img1.jpg);
+	background-size: cover;
+	color: #FFFFFF;
+	text-align: center;
+	width: 100%;
+
+}
+.lvjing{
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.8);
+	padding: 90px 0;
+}
+#home .h1{
+	font-weight: bold;
+	margin-top: 0;
+	margin-bottom: 20px;
+}
+#home p{
+    font-weight: 400;
+    line-height: 30px;
+}
+#home img{
+	margin-top: 30px;
+	display: inline-block;
+}
+#qa{
+	padding: 80px 0;
+	text-align: center;
+}
+#qa .col-md-4{
+	padding: 15px;
+}
+#qa .col-md-4:hover{
+    background: #f1f1f1;
+    box-shadow: 1px 1px 4px #ccc;
+}
+
+#qa a{
+	color: #212121;
+	text-decoration: none;
+}
+#qa img{
+	margin: 0 auto;
+}
+#qa h3{
+	font-weight: bold;
+}
+
+#class_list{
+	background: #F8F8F8;
+	padding: 80px 0;
+	text-align: center;
+}
+#class_list .h2{
+	font-weight: bold;
+	padding-bottom: 60px;
+}
+
+#class_list .col-md-3{
+	margin-bottom: 20px;
+}
+#class_list .class_name{
+	background: #FFFFFF;
+}
+#class_list .btn{
+	background: transparent;
+    border: 1px solid #40D2B1;
+    border-radius: 0px;
+    color: #33b785;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    padding: 8px 40px;
+    transition: all 0.3s;
+}
+#class_list .btn:hover{
+    background: #33b785;
+    color: #fff;	
+}
+
+#app{
+	padding: 80px 0;
+}
+#app .h2{
+	font-weight: bold;
+	padding-bottom: 50px;
+}
+#app .p{
+    margin: 0 0 30px;
+}
+#app .btn{
+    margin-top: 20px;
+    background: #a4ca39;
+    border-color: #a4ca39;
+    border-radius: 0;
+    padding: 6px 30px;
+    transition: all 0.3s;
+}
+#app .btn:hover{
+	background: #738c2d
+}
+
+/*about*/
+#about{
+	background: url(../img/img3.jpg)no-repeat;
+	background-size: cover;
+	color: #FFFFFF;
+	height: 500px;
+}
+#about h2{
+	font-weight: bold;
+	margin-top: 0;
+	margin-bottom: 25px;
+}
+#about p{
+	line-height: 25px;
+	margin-bottom: 20px;
+}
+#about .form-control {
+    border: none;
+    border-radius: 0;
+    height: 50px;
+    margin-bottom: 20px;
+}
+#about textarea.form-control{
+	height: auto;
+}
+#about input[type="submit"]{
+	background: #40D2B1;
+	color: #FFFFFF;
+	font-weight: bold;
+}
+#about input[type="submit"]:hover{
+	background: #738c2d;
+    transition: all 0.3s;
+} 
+p {
+    margin: 0 0 10px;
+    text-align: center;
+    font-weight: bold;
+}
